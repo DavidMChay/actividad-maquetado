@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro | Formularios Chay</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="resources/form.ico" rel="icon">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Formulario de Registro</h2>
+        <form id="registro-form">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
+            </div>
+            <div class="form-group">
+                <label for="website">URL de Sitio Web Personal</label>
+                <input type="url" class="form-control" id="website" placeholder="URL de Sitio Web Personal">
+            </div>
+            <div class="form-group">
+                <label for="fecha">Fecha</label>
+                <input type="date" class="form-control" id="fecha">
+            </div>
+            <div class="form-group">
+                <label for="tiempo">Tiempo</label>
+                <input type="time" class="form-control" id="tiempo">
+            </div>
+            <div class="form-group">
+                <label for="fecha-hora">Fecha y Hora</label>
+                <div class="d-flex">
+                    <input type="date" class="form-control mr-2" id="fecha-hora-fecha">
+                    <input type="time" class="form-control" id="fecha-hora-hora">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mes">Mes</label>
+                <input type="month" class="form-control" id="mes">
+            </div>
+            <div class="form-group">
+                <label for="semana">Semana</label>
+                <input type="week" class="form-control" id="semana">
+            </div>
+            <div class="form-group">
+                <label for="numero">Número</label>
+                <input type="number" class="form-control" id="numero" min="-10" max="10">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+            </div>
+            <div class="form-group">
+                <label for="busqueda">Término de Búsqueda</label>
+                <input type="search" class="form-control" id="busqueda" placeholder="Buscar">
+            </div>
+            <div class="form-group">
+                <label for="color">Color</label>
+                <input type="color" class="form-control" id="color">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
