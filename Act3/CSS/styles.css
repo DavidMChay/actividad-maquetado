@@ -1,0 +1,39 @@
+body {
+    background-color: #202124;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    max-width: 350px;
+    filter: invert(1);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.input-group {
+    max-width: 600px;
+    width: 100%;
+}
+
+.input-group-append .btn {
+    border-color: #5f6368;
+}
+
+.btn-outline-light {
+    border-color: #5f6368;
+    color: #bdc1c6;
+}
+
+.btn-outline-light:hover {
+    background-color: #3c4043;
+    border-color: #5f6368;
+}
