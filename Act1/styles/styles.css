@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+html, body{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+}
+
+main{
+    margin-bottom:2%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.form-inline .form-control {
+    width: auto;
+    display: inline-block;
+}
+.aligned-inputs .form-control {
+    display: inline-block;
+    width: 25%;
+    margin-right: 10px;
+}
+.aligned-inputs .form-control:last-child {
+    margin-right: 0;
+}
+
+.mt-4{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
